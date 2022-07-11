@@ -58,12 +58,18 @@ main>section {
     background-color: #00ff1159;
 }
 
-section:nth-of-type(2) {
+section:nth-of-type(even) {
     background-color: rgb(226, 186, 43);
 }
 
 section:nth-of-type(2) figure {
     order: 1;
+}
+
+.col {
+    flex-direction: column;
+    text-align: center;
+
 }
 
 /* end CONTENT */
