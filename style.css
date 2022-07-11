@@ -7,8 +7,12 @@
 }
 
 /* ------Utilities------ */
-.bg {
-    background-color: aquamarine;
+.col-gap {
+    column-gap: 40px;
+}
+
+.flex {
+    display: flex;
 }
 
 /* ------Content------ */
@@ -23,19 +27,7 @@ nav {
     background-color: brown;
 }
 
-.wrap {
-    flex-wrap: wrap;
-}
-
-.col-gap {
-    column-gap: 40px;
-}
-
-.flex {
-    display: flex;
-}
-
 article {
     text-align: center;
-    padding: 10px 25%;
+    padding: 10% 25%;
 }
