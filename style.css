@@ -17,7 +17,6 @@
 
 /* ------Content------ */
 header {
-    flex-direction: column;
     background: rgb(238, 143, 255);
 }
 
@@ -27,7 +26,26 @@ nav {
     background-color: brown;
 }
 
-article {
+header>article {
     text-align: center;
     padding: 10% 25%;
+}
+
+figure,
+section>article {
+    border-style: dashed;
+    background-color: indianred;
+    flex-basis: 300px;
+    height: 300px;
+}
+
+section>article {
+    background-color: bisque;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #00ff1159;
 }
