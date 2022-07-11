@@ -1,0 +1,41 @@
+/* ------Generics------ */
+/* CSS RESET */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* ------Utilities------ */
+.bg {
+    background-color: aquamarine;
+}
+
+/* ------Content------ */
+header {
+    flex-direction: column;
+    background: rgb(238, 143, 255);
+}
+
+nav {
+    padding: 10px;
+    justify-content: space-around;
+    background-color: brown;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.col-gap {
+    column-gap: 40px;
+}
+
+.flex {
+    display: flex;
+}
+
+article {
+    text-align: center;
+    padding: 10px 25%;
+}
